@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="主頁" android:icon="@drawable/sl_home" app:showAsAction="always"
+          android:id="@+id/menuHome" android:orderInCategory="0"/>
+    <item android:title="聊天" android:icon="@drawable/sl_chat" app:showAsAction="always"
+          android:id="@+id/menuChat" android:orderInCategory="1"/>
+    <item android:title="貼文串" android:icon="@drawable/sl_time" app:showAsAction="always"
+          android:id="@+id/menuTime" android:orderInCategory="2"/>
+    <item android:title="TODAY" android:icon="@drawable/sl_note" app:showAsAction="always"
+          android:id="@+id/menuNote" android:orderInCategory="3"/>
+    <item android:title="錢包" android:icon="@drawable/sl_wallet" app:showAsAction="always"
+          android:id="@+id/menuWallet" android:orderInCategory="4"/>
+</menu>
